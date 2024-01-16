@@ -146,3 +146,42 @@ img {
     font-size: 18px;
     font-weight: bold;
 }
+
+.row4 {
+    display: flex;
+    justify-content: center;
+    padding: 100px 170px;
+    color: #F9FAF8;
+}
+
+.row4 .frame {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    background-color: #3882f6;
+    padding: 50px 30px;
+    border-radius: 8px;
+    gap: 140px;
+}
+
+.row4 .frame .left {
+    justify-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.row4 .frame .left .title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#row4-button {
+    justify-self: flex-end;
+    border: 2px solid #F9FAF8;
+    padding: 8px 32px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    align-self: center;
+}
