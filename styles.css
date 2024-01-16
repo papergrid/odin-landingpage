@@ -185,3 +185,15 @@ img {
     color: #F9FAF8;
     align-self: center;
 }
+
+.footer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding: 20px 5px;
+}
+
+.footer p {
+    align-self: center;
+
+ }
