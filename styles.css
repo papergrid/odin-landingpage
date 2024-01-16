@@ -126,3 +126,23 @@ img {
     margin-top: 10px;
     color: #1f2937
 }
+
+.row3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    padding: 100px 270px;
+}
+
+.row3 .quote {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.row3 .author {
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+}
