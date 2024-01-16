@@ -86,7 +86,7 @@ img {
     display: flex;
     flex-direction: column;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 145px;
 }
 
 .row2 .title {
@@ -100,7 +100,7 @@ img {
     display: flex;
     justify-content: space-around;
     gap: 50px;
-    padding: 50px 250px 30px 250px;
+    padding: 50px 250px 0 250px;
 }
 
 .box-container .boxes {
